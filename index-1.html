@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#52664a">
+<meta name="description" content="مسبحة الرحمة - صدقة جارية على روح رضا حنفي كامل.">
+<title>مسبحة الرحمة | رضا حنفي كامل</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap');
+:root{--green:#52664a;--deep:#344735;--sage:#dfe5d4;--cream:#fbf7ed;--beige:#e9ddc6;--gold:#b69a67;--ink:#354334}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:'Cairo',sans-serif;background:radial-gradient(ellipse at top,#fffdf6 0%,#f5efdf 65%,#e9e5d5 100%);min-height:100vh;overflow-x:hidden}
+body:before,body:after{content:"۞";position:fixed;color:#879477;opacity:.10;font-size:220px;z-index:-1;top:12%;pointer-events:none}
+body:before{right:-65px}body:after{left:-65px;top:55%}
+main{width:min(760px,100%);margin:auto;padding:28px 18px 34px;text-align:center}
+.mosque{font-size:48px;color:var(--green);line-height:1.2;margin:0 auto 4px}
+h1{font-family:'Amiri',serif;font-size:clamp(38px,8vw,58px);margin:0;color:var(--deep);font-weight:700}
+.subtitle{font-family:'Amiri',serif;font-size:25px;margin:0 0 17px;color:#64745a}
+.rule{display:flex;align-items:center;gap:12px;justify-content:center;color:var(--gold);margin:15px 0}
+.rule:before,.rule:after{content:"";height:1px;background:linear-gradient(90deg,transparent,var(--gold));width:90px}
+.rule:after{transform:rotate(180deg)}
+.dedication{background:rgba(222,228,211,.8);border:1px solid #cbd3bf;border-radius:22px;padding:13px 18px;margin:12px auto;max-width:520px}
+.dedication strong{display:block;font-family:'Amiri',serif;font-size:31px;color:var(--deep)}
+.dua{font-family:'Amiri',serif;font-size:23px;line-height:1.8;margin:16px auto 22px;max-width:600px}
+.counter-wrap{margin:18px auto 14px}
+.counter{width:245px;height:245px;max-width:70vw;max-height:70vw;margin:auto;border-radius:50%;border:9px solid var(--green);box-shadow:0 0 0 7px #e2d6bd,0 12px 28px #53624730,inset 0 0 0 2px #d8c9a9;background:radial-gradient(circle,#fffdf7 55%,#f1e8d6);display:flex;flex-direction:column;justify-content:center;align-items:center;cursor:pointer;user-select:none;transition:transform .12s,background .2s}
+.counter:active{transform:scale(.97)}
+#count{font-size:76px;font-weight:700;line-height:1;color:var(--deep);font-variant-numeric:tabular-nums}
+.counter small{font-size:17px;color:#64745a;margin-top:7px}
+#dhikrNow{font-family:'Amiri',serif;font-size:27px;color:var(--deep);margin:12px 0 0}
+.tap{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#647957,#344735);color:white;border:0;border-radius:40px;padding:15px 35px;font:700 21px 'Cairo';box-shadow:0 7px 16px #34473535;cursor:pointer;min-width:260px}
+.tap:active{transform:translateY(2px)}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:18px 0 24px}
+.action{border:1px solid var(--gold);background:#fffaf0;color:var(--deep);border-radius:30px;padding:10px 18px;font:600 15px 'Cairo';cursor:pointer}
+.action:hover,.dhikr:hover{background:#edf0e6}
+.section-title{font-family:'Amiri',serif;font-size:27px;margin:22px 0 12px;color:var(--deep)}
+.dhikr-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px}
+.dhikr{background:#fffaf0;border:1px solid #d9c9a9;border-radius:17px;padding:15px 8px;color:var(--deep);font:700 18px 'Amiri';cursor:pointer;min-height:76px}
+.dhikr.active{background:var(--sage);border:2px solid var(--green);box-shadow:0 3px 10px #52664a18}
+.dhikr span{display:block;font-size:23px;margin-bottom:2px}
+.note{font-size:13px;color:#78816f;margin:18px auto 0;line-height:1.8}
+footer{font-family:'Amiri',serif;font-size:25px;color:var(--deep);margin-top:28px}
+footer small{display:block;font:13px 'Cairo';color:#78816f;margin-top:7px}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#344735;color:#fff;padding:10px 18px;border-radius:25px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+@media(max-width:480px){main{padding:22px 14px}.dua{font-size:21px}.counter{width:220px;height:220px}#count{font-size:68px}.dhikr-list{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<main>
+  <div class="mosque" aria-hidden="true">☪</div>
+  <h1>مسبحة الرحمة</h1>
+  <p class="subtitle">صدقة جارية على روح فقيدنا الغالي</p>
+  <div class="rule">۞</div>
+
+  <section class="dedication">
+    <strong>رضا حنفي كامل</strong>
+  </section>
+
+  <p class="dua">اللهم اغفر له وارحمه، وعافه واعفُ عنه، وأكرم نُزله، واجعل ما نقدمه له في ميزان حسناته.</p>
+
+  <div class="counter-wrap">
+    <button class="counter" id="counter" type="button" aria-label="اضغط للتسبيح">
+      <span id="count">0</span>
+      <small>عدد التسبيحات</small>
+    </button>
+    <p id="dhikrNow">سبحان الله</p>
+  </div>
+
+  <button class="tap" id="tapBtn" type="button">✿　اضغط للتسبيح</button>
+
+  <div class="actions">
+    <button class="action" id="shareBtn" type="button">مشاركة الرابط　↗</button>
+    <button class="action" id="resetBtn" type="button">إعادة العد　⟲</button>
+  </div>
+
+  <h2 class="section-title">الأذكار المتاحة</h2>
+  <div class="dhikr-list" id="dhikrList">
+    <button class="dhikr active" data-dhikr="سبحان الله"><span>۞</span>سبحان الله</button>
+    <button class="dhikr" data-dhikr="الحمد لله"><span>❀</span>الحمد لله</button>
+    <button class="dhikr" data-dhikr="الله أكبر"><span>☪</span>الله أكبر</button>
+    <button class="dhikr" data-dhikr="لا إله إلا الله"><span>۩</span>لا إله إلا الله</button>
+    <button class="dhikr" data-dhikr="أستغفر الله"><span>❁</span>أستغفر الله</button>
+  </div>
+
+  <p class="note">العداد محفوظ على هذا الجهاز فقط. مشاركة الرابط تتيح للآخرين فتح المسبحة والبدء بالذكر.</p>
+  <footer>كل تسبيحة… أجرٌ نرجو أن يصل إليه بإذن الله
+    <small>اللهم اجعلها صدقة جارية ونورًا ورحمةً له</small>
+  </footer>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const countEl=document.getElementById('count');
+const counter=document.getElementById('counter');
+const tapBtn=document.getElementById('tapBtn');
+const dhikrNow=document.getElementById('dhikrNow');
+const toast=document.getElementById('toast');
+let count=Number(localStorage.getItem('rezaTasbihCount')||0);
+let selected=localStorage.getItem('rezaTasbihDhikr')||'سبحان الله';
+function render(){countEl.textContent=count.toLocaleString('ar-EG');dhikrNow.textContent=selected;document.querySelectorAll('.dhikr').forEach(b=>b.classList.toggle('active',b.dataset.dhikr===selected));}
+function increment(){count++;localStorage.setItem('rezaTasbihCount',count);render();if(navigator.vibrate)navigator.vibrate(25);}
+function showToast(msg){toast.textContent=msg;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);}
+counter.addEventListener('click',increment);
+tapBtn.addEventListener('click',increment);
+document.querySelectorAll('.dhikr').forEach(btn=>btn.addEventListener('click',()=>{selected=btn.dataset.dhikr;localStorage.setItem('rezaTasbihDhikr',selected);render();}));
+document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('هل تريد إعادة العداد إلى الصفر؟')){count=0;localStorage.setItem('rezaTasbihCount',count);render();}});
+document.getElementById('shareBtn').addEventListener('click',async()=>{
+ const data={title:'مسبحة الرحمة | رضا حنفي كامل',text:'شارك في الذكر والدعاء على روح رضا حنفي كامل، غفر الله له ورحمه.',url:location.href};
+ try{if(navigator.share)await navigator.share(data);else if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(location.href);showToast('تم نسخ رابط الصفحة');}else{showToast('انسخ رابط الصفحة من شريط العنوان');}}
+ catch(e){if(e.name!=='AbortError')showToast('يمكنك نسخ الرابط من شريط العنوان');}
+});
+render();
+</script>
+</body>
+</html>
